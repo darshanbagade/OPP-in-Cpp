@@ -9,8 +9,9 @@ class Avg
    public:
     void get_marks()
     {
-        cout<<"Enter the marks of student-2 : "<<m2<<endl;
         cout<<"Enter the marks of student-1 : "<<m1<<endl;
+        cout<<"Enter the marks of student-2 : "<<m2<<endl;
+
     }
     void average()
     {
