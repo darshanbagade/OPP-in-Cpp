@@ -9,13 +9,16 @@ class Avg
    public:
     void get_marks()
     {
-        cout<<"Enter the marks of student-1 : "<<m1<<endl;
-        cout<<"Enter the marks of student-2 : "<<m2<<endl;
+        cout<<"Enter the marks of student-1 : "<<endl;
+        cin>>m1;
+        cout<<"Enter the marks of student-2 : "<<endl;
+        cin>>m2;
 
     }
     void average()
     {
-        cout<<"Average marks are "<<(float)((m1+m2)/2);
+        float avg_marks=(m1+m2)/2.0;
+        cout<<"\nAverage marks are "<<avg_marks;
     }
 };
 int main()
